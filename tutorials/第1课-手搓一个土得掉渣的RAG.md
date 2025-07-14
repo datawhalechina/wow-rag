@@ -200,15 +200,11 @@ matched_texts = match_text(input_text=input_text, index=index, chunks=chunks, k=
 ```
 
 运行上面两行代码，将会得到如下输出：
-similarity: 0.6645
+similarity: 0.7497
 matching text: 
 ystem and providing the user with controls in order to customize such a system. It is possible the Agent AI could be used to develop new methods to de
 
-similarity: 0.6368
-matching text: 
-r, the handling of sensitive patient data by AI agents raises significant privacy and confidentiality concerns. 2) In the gaming industry, AI agents c
-
-similarity: 0.6362
+similarity: 0.7120
 matching text: 
 mental advances in agent AI help contribute towards these goals and many would benefit from a greater understanding of how to model embodied and empat
 
