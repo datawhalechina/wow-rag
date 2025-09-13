@@ -6,7 +6,7 @@ import os
 # 从环境变量中读取api_key
 # api_key = os.getenv('WOWRAG_API_KEY')
 api_key = "sk-CheAFXpUwl7euofb660f9269E3Af4609BdFfF426E57d46A5"
-base_url = "http://43.200.7.56:8008/v1"
+base_url = "http://101.132.164.17:8000/v1"
 chat_model = "glm-4-flash"
 emb_model = "embedding-3"
 

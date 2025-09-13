@@ -18,7 +18,7 @@
 
 然后我们就可以用国内模型的api_key和base_url来创建一个client了。
 
-国内模型可以是智谱、Yi、千问deepseek等等。KIMI是不行的，因为Kimi家没有嵌入模型。
+国内模型可以是智谱、Yi、千问deepseek等等。Kimi官方目前没有提供嵌入模型，不能直接用于向量检索，但可以配合其他厂商的嵌入模型实现文本检索，Kimi作为生成模型依然可用于RAG流程。
 要想用openai库对接国内的大模型，对于每个厂家，我们都需要准备四样前菜：
 - 第一：一个api_key，这个需要到各家的开放平台上去申请。 
 - 第二：一个base_url，这个需要到各家的开放平台上去拷贝。 
@@ -200,15 +200,11 @@ matched_texts = match_text(input_text=input_text, index=index, chunks=chunks, k=
 ```
 
 运行上面两行代码，将会得到如下输出：
-similarity: 0.6645
+similarity: 0.7497
 matching text: 
 ystem and providing the user with controls in order to customize such a system. It is possible the Agent AI could be used to develop new methods to de
 
-similarity: 0.6368
-matching text: 
-r, the handling of sensitive patient data by AI agents raises significant privacy and confidentiality concerns. 2) In the gaming industry, AI agents c
-
-similarity: 0.6362
+similarity: 0.7120
 matching text: 
 mental advances in agent AI help contribute towards these goals and many would benefit from a greater understanding of how to model embodied and empat
 
